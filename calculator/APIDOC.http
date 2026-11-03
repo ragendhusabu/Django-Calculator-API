@@ -1,0 +1,114 @@
+###
+POST http://localhost:8000/addition/
+Content-Type: application/json
+
+{
+    "num1" : 50,
+    "num2" : 15
+}
+
+###
+POST  http://localhost:8000/subtraction/
+Content-Type:  application/json
+
+{
+    "num1" :1000,
+    "num2" :500
+}
+
+###
+POST  http://localhost:8000/multiplication/
+Content-Type:  application/json
+
+{
+    "num1" :10,
+    "num2" :5
+}
+
+###
+POST  http://localhost:8000/division/
+Content-Type:  application/json
+
+{
+    "num1" :1000,
+    "num2" :2
+}
+
+###
+POST  http://localhost:8000/modulous/
+Content-Type:  application/json
+
+{
+    "num1" :16,
+    "num2" :3
+}
+
+# API call for calculating percentage
+
+###
+POST  http://localhost:8000/percentage/
+Content-Type:  application/json
+
+{
+    "obtained_marks" : 400,
+    "total_marks"    :500
+}
+
+# API call for calculating bmi
+
+###
+POST  http://localhost:8000/bmi/
+Content-Type:  application/json
+
+{
+    "weight" : 52,
+    "height"    :162
+}
+
+# API call for calculating area of triangle
+
+###
+POST  http://localhost:8000/area/
+Content-Type:  application/json
+
+{
+    "length" : 10,
+    "breadth": 5
+}
+
+# API call for calculating age
+
+###
+POST  http://localhost:8000/age/
+Content-Type:  application/json
+
+{
+    "birth_year" : 2000,
+    "current_year": 2026
+}
+
+# API call for calculating simple interest
+
+###
+POST  http://localhost:8000/simple_interest/
+Content-Type:  application/json
+
+{
+    "principal" :10000,
+    "rate"      :5,
+    "time"      :2
+}
+
+# API call for calculating electricity bill
+
+###
+POST  http://localhost:8000/bill/
+Content-Type:  application/json
+
+{
+    "units" :212,
+    "rate"  :6
+}
+
+
+
